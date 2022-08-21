@@ -5,7 +5,7 @@
 - [x] Lesson 3
 - [x] Lesson 4
 - [x] Lesson 5
-- [ ] Lesson 6
+- [x] Lesson 6
 - [ ] Lesson 7
 - [ ] Lesson 8
 - [ ] Lesson 9
