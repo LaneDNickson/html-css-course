@@ -1,0 +1,13 @@
+There are threee types of elements in CSS
+
+Block Element - Takes up entire line (page line)
+  Paragraph is block by default
+
+Inline Block Element - Takes up only what it needs to
+  Image, Search bar
+
+Inline Element - Appear within a line of text
+  <strong> keyword
+
+
+  use display: to switch
