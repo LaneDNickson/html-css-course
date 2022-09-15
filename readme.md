@@ -7,7 +7,7 @@
 - [x] Lesson 5
 - [x] Lesson 6
 - [x] Lesson 7
-- [ ] Lesson 8
+- [x] Lesson 8
 - [ ] Lesson 9
 - [ ] Lesson 10
 - [ ] Lesson 11
