@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      object-position: top;
+      vertical-align: middle;
+      margin-right: 5px;
+      ;
+    }
+
+    .text-box {
+      vertical-align: middle;
+      font-size: 18px;
+      border: none;
+      width: 300px;
+
+      color: grey;
+    }
+
+    .tweet-button {
+      vertical-align: middle;
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 16px;
+      font-weight: bold;
+
+      border-radius: 30px;
+
+
+    }
+
+    .shadow-tweet {
+      display: inline-block;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+      border-radius: 5px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="shadow-tweet">
+    <img src="thumbnails/dp.webp" class="profile-picture">
+    <input type="text" class="text-box" placeholder="What's happening?">
+    <button class="tweet-button">
+      Tweet
+    </button>
+  </div>
+
+</body>
+
+</html>

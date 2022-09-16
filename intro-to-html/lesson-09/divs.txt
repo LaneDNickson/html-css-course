@@ -1,0 +1,5 @@
+DIVS
+
+The div element means division
+It's just a box
+You can put anything inside it
