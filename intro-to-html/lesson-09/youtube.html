@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>YouTube</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      display: block;
+      /* What happens if h/w doesn't match original aspect ratio */
+      /* height: 300px; */
+      /* object-fit: contain;
+        object-position: top;
+        border-width: 2px;
+        border-color: red;
+        border-style: solid; */
+    }
+
+    .search-bar {
+      /* font-size: 20px;
+        margin-left: 12px; */
+      display: block;
+    }
+
+    .video-title {
+      width: 300px;
+    }
+
+    .video-author,
+    .video-stats {
+      /* display: inline-block; */
+    }
+
+    .div-example {
+      display: inline-block;
+    }
+
+    .video-preview {
+      vertical-align: top;
+      width: 300px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Text box element -->
+  <input class="search-bar" type="text" placeholder="Search">
+  <div class="video-preview">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+    <p class="video-title">Talking Tech <strong>and AI</strong> with Google CEO Sundar Pichai!</p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views · 6 months ago</p>
+  </div>
+  <div class="video-preview">
+    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+
+    <p class="video-title">Try Not To Laugh Challenge #9</p>
+    <p class="video-author">Markiplier</p>
+    <p class="video-stats">19M views · 4 years ago</p>
+  </div>
+
+  <div class="div-example">this is a div</div>
+</body>
+
+</html>

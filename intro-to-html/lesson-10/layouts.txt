@@ -1,0 +1,4 @@
+Layouts
+There are 2 types of Layouts
+  - vertical
+  - horizontal
