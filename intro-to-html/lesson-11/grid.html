@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grid Practice</title>
+</head>
+
+<body>
+  <div style="
+  display: grid;
+  grid-template-columns: 100px 100px;
+  ">
+    <div style="background-color: lightblue;">
+      Div 1
+    </div>
+    <div style="background-color: lightpink">
+      Div 2
+      <p> Hello this is a paragraph</p>
+    </div>
+  </div>
+
+  <div style="
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  margin-top: 30px;
+  ">
+    <div style="background-color: lightblue;">
+      Div 1
+    </div>
+    <div style="background-color: lightpink">
+      Div 2
+      <p> Hello this is a paragraph</p>
+    </div>
+    <div style="background-color: lightgreen">
+      Div 3
+      <p> Hello this is a paragraph</p>
+    </div>
+    <div style="background-color: lightseagreen">
+      Div 4
+      <p> Hello this is a paragraph</p>
+    </div>
+  </div>
+
+  <!-- "fr" means take up freespace -->
+  <div style="
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-top: 30px;
+  ">
+    <div style="background-color: lightblue;">
+      Div 1
+    </div>
+    <div style="background-color: lightpink">
+      1fr
+    </div>
+  </div>
+
+  <div style="
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  margin-top: 30px;
+  ">
+    <div style="background-color: lightblue;">
+      Div 1
+    </div>
+    <div style="background-color: lightpink">
+      1fr
+    </div>
+    <div style="background-color: lightblue">
+      1fr
+    </div>
+  </div>
+
+  <div style="
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  column-gap: 20px;
+  row-gap: 40px;
+  ">
+    <div style="background-color: lightblue; height: 200px">
+      Div 1 
+      1fr
+    </div>
+    <div style="background-color: lightpink">
+      1fr
+    </div>
+    <div style="background-color: lightblue">
+      1fr
+    </div>
+    <div style="background-color: lightpink; height: 200px">
+      Div 3
+      1fr
+    </div>
+    <div style="background-color: lightblue">
+      1fr
+    </div>
+    <div style="background-color: lightpink">
+      1fr
+    </div>
+  </div>
+</body>
+
+</html>

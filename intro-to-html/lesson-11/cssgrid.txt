@@ -1,0 +1,2 @@
+The CSS Grid
+Better to create vertical and horizontal layouts
