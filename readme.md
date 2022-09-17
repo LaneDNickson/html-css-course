@@ -8,8 +8,8 @@
 - [x] Lesson 6
 - [x] Lesson 7
 - [x] Lesson 8
-- [ ] Lesson 9
-- [ ] Lesson 10
+- [x] Lesson 9
+- [x] Lesson 10
 - [ ] Lesson 11
 - [ ] Lesson 12
 - [ ] Lesson 13
