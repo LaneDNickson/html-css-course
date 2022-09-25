@@ -12,7 +12,7 @@
 - [x] Lesson 10
 - [x] Lesson 11
 - [x] Lesson 12
-- [ ] Lesson 13
+- [x] Lesson 13
 - [ ] Lesson 14
 - [ ] Lesson 15
 - [ ] Lesson 16
