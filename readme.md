@@ -13,7 +13,7 @@
 - [x] Lesson 11 - The CSS Grid
 - [x] Lesson 12 - Flexbox
 - [x] Lesson 13 - Nested Flexbox
-- [ ] Lesson 14 - CSS Position
+- [x] Lesson 14 - CSS Position
 - [ ] Lesson 15 - Absolute and Relative Position
 - [ ] Lesson 16 - Finish Course Project
 - [ ] Lesson 17 - More CSS Features
