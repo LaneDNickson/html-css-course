@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .shirt {
+      width: 300px;
+      height: 300px;
+    }
+
+    .image-container {
+      position: relative;
+      width: 300px;
+      height: 300px;
+    }
+
+    .sale {
+      position: absolute;
+      top: 5px;
+      right: 0px;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+      padding: 5px;
+    }
+
+    .cart {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      height: 75px;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cart-button {
+      background-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container"><img class="shirt"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXL5oGqa--HzVW2Li05P7sldoqBcTplDaPvQ&usqp=CAU">
+    <div class="sale">20% OFF</div>
+    <div class="cart"><button class="cart-button">Add to Cart</button></div>
+  </div>
+</body>
+
+</html>
